@@ -131,7 +131,6 @@
         <br>
 
         <?php
-
             # 画面に表示
 	        $sql = 'SELECT * FROM tbboard';
 	        $stmt = $pdo->query($sql);
